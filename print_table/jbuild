@@ -1,0 +1,4 @@
+(executable
+ ((name print_table)
+ (libraries (core))
+ (preprocess (pps (ppx_jane)))))
