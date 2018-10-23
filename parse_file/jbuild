@@ -1,0 +1,8 @@
+(executables
+ ((names (parse_file))
+  (libraries (
+    core
+    re
+  ))
+  (preprocess (pps (ppx_jane)))
+))
