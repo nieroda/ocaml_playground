@@ -1,6 +1,10 @@
 (* w/o soln *)
 open Core ;;
 
+(*
+https://ocaml.janestreet.com/ocaml-core/109.08.00/doc/core/String.html
+https://ocaml.janestreet.com/ocaml-core/v0.10/doc/base/Base/index.html
+*)
 
 let max_width header rows =
   let lengths l = List.map ~f:String.length l in
